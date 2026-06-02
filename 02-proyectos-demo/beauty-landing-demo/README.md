@@ -1,24 +1,69 @@
-# Beauty Landing Page Demo
+# Luma Skin — Beauty Landing Page Demo
 
-Demo landing page created for the Dxien Studio portfolio.
+This is a portfolio demo landing page created for **Dxien Studio**.
 
-## Purpose
+The project presents a fictional beauty/skincare brand concept focused on clean design, clear messaging, mobile-first structure and conversion-aware page flow.
 
-This project shows a clean landing page structure for a beauty/skincare brand.
+## Project Purpose
 
-## Sections included
+The goal of this demo is to show how a beauty or skincare landing page can be structured to help visitors understand the offer more clearly.
 
+This project focuses on:
+
+- Clear hero section
+- Strong product presentation
+- Trust-focused layout
+- Mobile-friendly call to action
+- Simple benefit explanation
+- Problem/solution structure
+- FAQ section
+- Demo testimonials and portfolio-safe copy
+
+## Important Note
+
+This is a fictional portfolio project.
+
+It does not represent a real client, real brand or real customer results.
+
+The purpose is to demonstrate design, structure, copywriting and responsive layout skills.
+
+This project does not claim or guarantee sales, revenue, conversion rates or financial results.
+
+## Sections Included
+
+- Header navigation
 - Hero section
 - Product concept card
-- Benefits
-- How it works
+- Trust badges
+- Problem/Solution section
+- Benefits section
+- How it works section
 - Sample reviews
 - FAQ
-- Call to action
-- Responsive layout
+- Final call to action
+- Footer
 
-## Important note
+## Skills Demonstrated
 
-This is a portfolio demo project. It does not represent a real client or real brand.
+- HTML structure
+- CSS styling
+- Responsive design
+- Landing page layout
+- Beauty/skincare visual direction
+- Conversion-aware copy structure
+- Mobile-first thinking
+- Portfolio project documentation
 
-The goal is to demonstrate page structure, visual clarity, mobile experience and conversion potential without promising guaranteed sales.
+## Tech Used
+
+- HTML
+- CSS
+- Visual Studio Code
+- Git
+
+## Screenshot References
+
+Screenshots for this project are stored in:
+
+```text
+04-recursos/capturas/beauty-landing-demo
