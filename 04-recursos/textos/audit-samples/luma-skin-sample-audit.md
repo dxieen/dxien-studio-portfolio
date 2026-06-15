@@ -4,7 +4,7 @@ Prepared by: Dxien Studio
 Service: Shopify Product Page Audit  
 Project: Luma Skin — Beauty Landing Page Demo  
 Page Type: Fictional beauty/skincare landing page demo  
-Date: [Add Date]  
+Date: 15/06/2026
 Package Example: Standard  
 
 ---
