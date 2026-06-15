@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luma Skin Shopify Audit Sample - Dxien Studio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f1f1f;
+      background: #f7efe9;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 56px;
+    }
+
+    .cover {
+      padding: 56px;
+      background: linear-gradient(135deg, #fffaf7, #f1ded5);
+      border-radius: 28px;
+      margin-bottom: 42px;
+      border: 1px solid #ead8cf;
+    }
+
+    .brand {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: #8a523b;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 44px;
+      line-height: 1.05;
+      margin: 0 0 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin: 42px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #ead8cf;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin: 28px 0 10px;
+      color: #2b2b2b;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0 0 14px;
+    }
+
+    ul, ol {
+      margin-top: 8px;
+      margin-bottom: 18px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      max-width: 700px;
+      font-size: 18px;
+      color: #5f514b;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .meta div {
+      padding: 16px;
+      background: #ffffff;
+      border: 1px solid #ead8cf;
+      border-radius: 16px;
+    }
+
+    .meta strong {
+      display: block;
+      color: #8a523b;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 4px;
+    }
+
+    .note {
+      padding: 22px;
+      background: #fff7f2;
+      border-left: 5px solid #8a523b;
+      border-radius: 14px;
+      margin: 24px 0;
+    }
+
+    .score-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0 26px;
+      font-size: 15px;
+    }
+
+    .score-table th {
+      background: #1f1f1f;
+      color: #ffffff;
+      text-align: left;
+      padding: 12px;
+    }
+
+    .score-table td {
+      border: 1px solid #ead8cf;
+      padding: 12px;
+      vertical-align: top;
+    }
+
+    .score-table tr:nth-child(even) td {
+      background: #fffaf7;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 22px 0;
+    }
+
+    .card {
+      padding: 18px;
+      background: #fffaf7;
+      border: 1px solid #ead8cf;
+      border-radius: 18px;
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #8a523b;
+    }
+
+    .priority {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 18px;
+    }
+
+    .priority-box {
+      padding: 18px;
+      border-radius: 18px;
+      border: 1px solid #ead8cf;
+      background: #fffaf7;
+    }
+
+    .priority-box h3 {
+      margin-top: 0;
+    }
+
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid #ead8cf;
+      color: #6f625c;
+      font-size: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 7px 12px;
+      background: #8a523b;
+      color: #ffffff;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-top: 18px;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+      }
+
+      .page {
+        max-width: none;
+        padding: 36px;
+      }
+
+      .cover {
+        break-inside: avoid;
+      }
+
+      h2 {
+        break-after: avoid;
+      }
+
+      .card,
+      .priority-box,
+      .note {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+
+    <section class="cover">
+      <div class="brand">Dxien Studio</div>
+      <h1>Shopify Product Page Audit Sample</h1>
+      <p class="subtitle">
+        A fictional audit sample for the Luma Skin beauty landing page demo,
+        focused on clarity, structure, trust, mobile experience, CTA and conversion potential.
+      </p>
+
+      <div class="meta">
+        <div>
+          <strong>Project</strong>
+          Luma Skin - Beauty Landing Page Demo
+        </div>
+        <div>
+          <strong>Prepared by</strong>
+          Dxien Studio
+        </div>
+        <div>
+          <strong>Page type</strong>
+          Fictional beauty / skincare demo
+        </div>
+        <div>
+          <strong>Package example</strong>
+          Standard
+        </div>
+      </div>
+
+      <span class="tag">Portfolio Sample - Not Client Work</span>
+    </section>
+
+    <section class="note">
+      <strong>Important note:</strong>
+      This is a fictional portfolio sample. It does not represent a real client,
+      real store, real order or guaranteed business results. This audit focuses on
+      page clarity, structure, trust, mobile experience and conversion potential.
+    </section>
+
+    <h2>1. Quick Page Summary</h2>
+    <p>
+      The Luma Skin page has a clean visual style, calm colors and a professional
+      beauty/skincare direction. The page feels modern and trustworthy because the
+      design is simple and not overloaded.
+    </p>
+    <p>
+      The main improvement opportunity is making the product offer feel more specific.
+      The page looks good visually, but the product value, benefits and next step could
+      be clearer for visitors who do not already understand the product.
+    </p>
+
+    <h2>2. Overall Score</h2>
+
+    <table class="score-table">
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>Score</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hero / First Impression</td>
+          <td>8 / 10</td>
+          <td>Clean and professional, but the product benefit could be more direct.</td>
+        </tr>
+        <tr>
+          <td>Product Clarity</td>
+          <td>7 / 10</td>
+          <td>The product is visible, but the exact value and use case could be explained better.</td>
+        </tr>
+        <tr>
+          <td>CTA Clarity</td>
+          <td>8 / 10</td>
+          <td>The CTA is visible and simple, but it could be repeated more strategically.</td>
+        </tr>
+        <tr>
+          <td>Trust Elements</td>
+          <td>7 / 10</td>
+          <td>The trust direction is good, but more specific trust messages could help.</td>
+        </tr>
+        <tr>
+          <td>Mobile Experience</td>
+          <td>8 / 10</td>
+          <td>The mobile layout is clean, readable and easy to follow.</td>
+        </tr>
+        <tr>
+          <td>Product Copy</td>
+          <td>7 / 10</td>
+          <td>The copy is clear, but could become more benefit-focused.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>Average score:</strong> 7.5 / 10</p>
+
+    <h2>3. First Impression Review</h2>
+
+    <div class="cards">
+      <div class="card">
+        <strong>What works</strong>
+        Clean layout, calm colors, clear headline and a premium skincare feeling.
+      </div>
+      <div class="card">
+        <strong>What can improve</strong>
+        The product benefit should be clearer in the first screen.
+      </div>
+      <div class="card">
+        <strong>Recommendation</strong>
+        Explain what the product is, who it is for and what action visitors should take.
+      </div>
+    </div>
+
+    <p>
+      The first screen should quickly answer what the product is, who it is for,
+      what problem it helps with and what the visitor should do next.
+    </p>
+
+    <h2>4. Product Clarity</h2>
+    <p>
+      The page shows a skincare product concept clearly, but the visitor may need more
+      context to understand the exact product function.
+    </p>
+
+    <h3>Issues found</h3>
+    <ul>
+      <li>The product visual is clean but slightly abstract.</li>
+      <li>The page does not immediately explain how the product is used.</li>
+      <li>The main benefit could be more specific.</li>
+      <li>The product promise is safe, but could be more memorable.</li>
+    </ul>
+
+    <h3>Suggested benefit bullets</h3>
+    <ul>
+      <li>Helps refresh your skincare routine.</li>
+      <li>Easy to use at home.</li>
+      <li>Designed for a calm, clean self-care moment.</li>
+      <li>Simple product presentation for beauty shoppers.</li>
+    </ul>
+
+    <h2>5. CTA Review</h2>
+    <p>
+      The current CTA is visible and calm, but a real Shopify product page may need
+      a stronger buying-focused CTA.
+    </p>
+
+    <h3>Suggested CTA options</h3>
+    <ul>
+      <li>Add to Cart</li>
+      <li>Get Yours Today</li>
+      <li>Start Your Skincare Routine</li>
+      <li>Shop the Cooling Ritual</li>
+    </ul>
+
+    <p><strong>Recommended CTA for a real product page:</strong> Add to Cart</p>
+
+    <h2>6. Trust Elements Review</h2>
+    <p>
+      Trust elements help reduce doubt and make the page feel safer for visitors.
+      The page already has a clean and trustworthy direction, but more specific trust
+      elements would strengthen confidence.
+    </p>
+
+    <h3>Recommended trust elements</h3>
+    <ul>
+      <li>Secure checkout message</li>
+      <li>Clear shipping information</li>
+      <li>Product reviews</li>
+      <li>Delivery estimate</li>
+      <li>Support/contact information</li>
+      <li>Simple FAQ section</li>
+    </ul>
+
+    <p><strong>Suggested trust bar:</strong> Secure checkout - Clear product details - Support available</p>
+
+    <h2>7. Product Copy Review</h2>
+    <p>
+      The copy is simple, safe and suitable for a beauty brand. The main improvement is to
+      make the product benefit more direct and easier to understand.
+    </p>
+
+    <h3>Recommendations</h3>
+    <ul>
+      <li>Use shorter benefit-focused sections.</li>
+      <li>Add a clear “Why customers like it” section.</li>
+      <li>Add a simple “How it works” section.</li>
+      <li>Use product-specific FAQ questions.</li>
+      <li>Avoid exaggerated beauty claims.</li>
+    </ul>
+
+    <h2>8. Page Structure Review</h2>
+    <p>
+      The current structure is strong for a demo. For a real Shopify product page,
+      the page should include more product-specific buying information.
+    </p>
+
+    <h3>Recommended structure</h3>
+    <ol>
+      <li>Hero section with product, main benefit and CTA</li>
+      <li>Trust bar</li>
+      <li>Key benefits</li>
+      <li>How it works</li>
+      <li>Product details</li>
+      <li>Reviews or social proof</li>
+      <li>FAQ</li>
+      <li>Final CTA</li>
+    </ol>
+
+    <h2>9. Mobile Experience Review</h2>
+    <p>
+      The mobile layout is clean and readable. The most important mobile improvement
+      would be adding a trust message near the first CTA and making the product details
+      appear earlier in the page flow.
+    </p>
+
+    <h3>Mobile recommendations</h3>
+    <ul>
+      <li>Keep the main CTA visible early.</li>
+      <li>Add trust text near the CTA.</li>
+      <li>Use short paragraphs.</li>
+      <li>Keep benefit bullets easy to scan.</li>
+      <li>Add a final CTA after FAQ.</li>
+    </ul>
+
+    <h2>10. Priority Fixes</h2>
+
+    <div class="priority">
+      <div class="priority-box">
+        <h3>High priority</h3>
+        <ol>
+          <li>Make the main product benefit clearer.</li>
+          <li>Add trust elements near the first CTA.</li>
+          <li>Add stronger product-specific FAQ.</li>
+        </ol>
+      </div>
+
+      <div class="priority-box">
+        <h3>Medium priority</h3>
+        <ol>
+          <li>Add a clearer “How it works” section.</li>
+          <li>Improve benefit bullets.</li>
+          <li>Repeat CTA after key sections.</li>
+        </ol>
+      </div>
+
+      <div class="priority-box">
+        <h3>Low priority</h3>
+        <ol>
+          <li>Add more product details.</li>
+          <li>Add small benefit icons.</li>
+          <li>Refine spacing between sections.</li>
+        </ol>
+      </div>
+    </div>
+
+    <h2>11. Suggested Action Plan</h2>
+    <ol>
+      <li>Rewrite the hero subtitle to explain the product benefit more clearly.</li>
+      <li>Add a trust bar below the main CTA.</li>
+      <li>Add 3-5 product-specific benefit bullets.</li>
+      <li>Add a simple “How it works” section.</li>
+      <li>Expand the FAQ with shipping, support, usage and what is included.</li>
+    </ol>
+
+    <h2>12. Final Recommendation</h2>
+    <p>
+      The Luma Skin demo has a strong visual foundation and a clean skincare direction.
+      It already looks professional and mobile-friendly.
+    </p>
+    <p>
+      The biggest opportunity is improving product clarity. A visitor should understand
+      the product, benefit, trust signals and next action within the first few seconds.
+    </p>
+
+    <section class="note">
+      <strong>Disclaimer:</strong>
+      This audit is based on page structure, clarity, design presentation, user experience
+      and conversion potential. It does not guarantee sales, revenue, profit, traffic,
+      conversion rates or business results.
+    </section>
+
+    <div class="footer">
+      Prepared by Dxien Studio - Shopify Product Page Audit Sample
+    </div>
+
+  </div>
+
+</body>
+</html>
